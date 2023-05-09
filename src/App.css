@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Starjedi";
+  src: url(./fonts/Starjedi.ttf);
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: "Starjedi";
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.item {
+  min-height: 30rem;
+  min-width: 20rem;
+  padding: 40px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
